@@ -1,3 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const element = React.createElement('h1', {id: 'heading'}, 'Hello, ReactJS from React');
 root.render(element);
